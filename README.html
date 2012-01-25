@@ -1,0 +1,12 @@
+Simple PHP function to get the last modified date and/or time of a specified URL.
+
+Function Name: remote_file_last_modified
+
+	Inputs: 
+		$url = The URL to retreive
+		$timestamp = Return a UNIX timestamp or human readable date - defaulted to Timestamp
+		$date_format = Standard PHP data format string (http://php.net/manual/en/function.date.php)
+
+	Output:
+		On success the date/time when the url was last modified.
+		On failure boolean False.
